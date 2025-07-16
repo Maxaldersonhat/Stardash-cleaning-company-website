@@ -2,26 +2,29 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaChevronLeft, FaChevronRight, FaStar } from 'react-icons/fa';
+import reviewimage1 from '../assets/Review-image1.png';
+import reviewimage2 from '../assets/reveiw-image2.png';
+import reviewimage3 from '../assets/review-image3.png';
 
 const testimonials = [
   {
     name: 'Grace Achieng',
     role: 'Restaurant Owner, Karen',
-    avatar: '/assets/grace.jpg',
+    avatar: reviewimage1,
     content:
       '“I needed deep cleaning after renovations, and Stardash exceeded my expectations. They made my space sparkle like new. Highly recommended!”',
   },
   {
     name: 'John Mwangi',
     role: 'CEO, Acme Corp',
-    avatar: '/assets/john.jpg',
+    avatar: reviewimage2,
     content:
       '“Our offices have never looked better. The team was friendly, punctual, and super thorough. Five stars!”',
   },
   {
-    name: 'Maria Otieno',
+    name: 'Maria ',
     role: 'Homeowner, Westlands',
-    avatar: '/assets/maria.jpg',
+    avatar: reviewimage3,
     content:
       '“I book every month now—these folks are absolute pros. My home always smells fresh and looks spotless.”',
   },

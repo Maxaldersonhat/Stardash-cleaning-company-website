@@ -31,10 +31,10 @@ export default function Footer() {
           <h4 className="text-white font-semibold mb-3">Our Services</h4>
           <ul className="space-y-2 text-sm">
             <li><Link to="/homecleaning" className="hover:text-white transition">Home Cleaning</Link></li>
-            <li>Office Cleaning</li>
-            <li>Deep Cleaning</li>
-            <li>Post-Construction</li>
-            <li>Move-in/Move-out</li>
+            <li><Link to="/OfficeCleaning" className="hover:text-white transition">Office Cleaning</Link></li>
+            <li><Link to="/Deepcleaning"className="hover:text-white transition">Deep Cleaning</Link></li>
+            <li><Link to="/postconstruction"className="hover:text-white transition">Post Construction</Link></li>
+            <li><Link to="/Move-in/Move-out"className="hover:text-white transition">Move-in/Move-out</Link></li>
           </ul>
         </div>
 
@@ -54,8 +54,8 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-semibold mb-3">Contact Us</h4>
           <ul className="space-y-3 text-sm">
-            <li>📞 +254 700 000 000</li>
-            <li>✉️ hello@stardashservices.co.ke</li>
+            <li>📞 +254 716 533 478</li>
+            <li>✉️ info@stardash.co.ke</li>
             <li>📍 Nairobi County, Kenya</li>
           </ul>
         </div>

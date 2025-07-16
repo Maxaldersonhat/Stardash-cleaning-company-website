@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer.jsx';
-import Deepcleaning from '../assets/deep-clean.png'; // Adjust the path as necessary
+import Deepcleaning from '../assets/deep-clean.png'; 
+import Basiccleaning from '../assets/basic-image.png';
+import Premuimclean from '../assets/premuim-clean.png'; 
 
 const packages = [
   {
     title: 'Basic Clean',
     duration: '2–3 hrs',
-    image: 'https://source.unsplash.com/400x300/?mop,home',
+    image: Basiccleaning,
   },
   {
     title: 'Deep Clean',
@@ -17,7 +19,7 @@ const packages = [
   {
     title: 'Premium Clean',
     duration: '6–7 hrs',
-    image: 'https://source.unsplash.com/400x300/?vacuum,cleaning',
+    image: Premuimclean,
   },
 ];
 

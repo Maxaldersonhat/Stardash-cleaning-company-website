@@ -51,14 +51,14 @@ export default function QuoteSection() {
                 <span className="text-blue-600 text-xl">📞</span>
                 <div>
                   <div className="font-medium">Phone</div>
-                  <div className="text-gray-600">+254 700 000 000</div>
+                  <div className="text-gray-600">+254 716 533 478</div>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <span className="text-blue-600 text-xl">✉️</span>
                 <div>
                   <div className="font-medium">Email</div>
-                  <div className="text-gray-600">hello@stardashservices.co.ke</div>
+                  <div className="text-gray-600">info@stardash.co.ke</div>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
@@ -81,10 +81,19 @@ export default function QuoteSection() {
             </div>
           </div>
 
-          {/* Map Placeholder */}
-          <div className="bg-gray-100 h-48 rounded-2xl flex items-center justify-center text-gray-500">
-            Interactive Map<br/>Serving all of Nairobi County
-          </div>
+          
+        <div className="rounded-2xl overflow-hidden">
+        <iframe
+        title="NextGen Mall Map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.9543830318938!2d36.83542651619911!3d-1.3117402020219019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f113bd5f56505%3A0x6fffc207fcd80c1a!2sNextgen%20Mall!5e0!3m2!1sen!2ske!4v1629090783911!5m2!1sen!2ske"
+        width="100%"
+        height="300"
+        allowFullScreen=""
+        loading="lazy"
+        className="border-0 w-full h-48"
+        ></iframe>
+        </div>
+
         </div>
       </div>
     </section>
